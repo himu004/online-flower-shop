@@ -65,7 +65,7 @@ header {
 }
 
 .shop-now-btn {
-    margin-top: 40px;
+    margin-top: 30px;
     padding: 20px 43px;
     border-radius: 8px;
     background: #E55473;
@@ -138,7 +138,7 @@ header {
 }
 
 .hot-deal-main {
-    background-color: rgb(255, 124, 124);
+    background-color: rgb(249, 151, 151);
 }
 
 .hot-deal-seaction {
@@ -150,7 +150,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 150px;
+    gap: 100px;
 }
 
 .hot-deal-description {
@@ -159,4 +159,24 @@ header {
 
 .flower-banner {
     padding: 40px;
+}
+
+.hot-deal-description h1 {
+    color: #272727;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+
+.off {
+    color: #d94968;
+}
+
+.hot-deal-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
 }
