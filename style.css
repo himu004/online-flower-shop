@@ -44,9 +44,14 @@ header {
     font-weight: 600;
 }
 
-.flower-banner img {
-    width: 400px;
-    height: 600px;
+.flower-picture {
+    display: flex;
+}
+
+.flower-picture img {
+    width: 500px;
+    margin-top: 85px;
+    align-items: end;
 }
 
 .flower-banner {
