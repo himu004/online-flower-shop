@@ -193,6 +193,29 @@ header {
     text-align: center;
 }
 
+/* Delivery Section Styles */
+.delivery-setion-container {
+    margin: 40px 200px;
+    height: 320px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+
+
+.delivery img {
+    margin: 30px 60px;
+}
+
+.delivery-setion-container p {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+
 .instagram-heading {
     margin: 20px;
     line-height: 40px;
@@ -268,7 +291,7 @@ header {
 /* Footer Styles */
 footer {
     width: 100%;
-    height: 300px;
+    height: 400px;
     background-color: #111010;
     display: flex;
     justify-content: center;
