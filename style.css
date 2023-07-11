@@ -209,13 +209,97 @@ header {
 }
 
 .instagram-pictures-wrapper {
+    width: 100%;
     display: flex;
-    justify-content: space-around;
-    margin: 30px;
+    justify-content: space-between;
+    margin-bottom: 50px;
 }
 
 .instagram-pictures img {
     width: 220px;
     height: 260px;
     flex-shrink: 0;
+}
+
+.latest-deals-wrapper {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 45px 200px;
+    background-image: url("asset/Rectangle 9.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.deals-description h2 {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.deals-description p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 20px 0;
+}
+
+.input-wrapper input {
+    width: 70%;
+    padding: 13px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+}
+
+.subscribe-btn {
+    padding: 11px;
+    border-radius: 5px;
+    background: #E55473;
+    border: 0;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* Footer Styles */
+footer {
+    width: 100%;
+    height: 300px;
+    background-color: #111010;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.flower {
+    color: #d94968;
+}
+
+footer h1 {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.footer-descritions {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+.copy-right {
+    margin-top: 30px;
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
 }
